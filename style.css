@@ -1,0 +1,19 @@
+.container {
+	margin: auto;
+	text-align: center;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+}
+.nav {
+	padding: 10px 0px;
+	background-color: red; 
+}
+.nav-button {
+	padding: 5px 25px;
+	background-color: green;
+	font-size: 18px;
+	font-family: arial;
+}
