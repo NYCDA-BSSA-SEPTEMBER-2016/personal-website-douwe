@@ -9,11 +9,22 @@ ul li {
 }
 .nav {
 	padding: 10px 0px;
-	background-color: red; 
 }
-.nav-button {
+.nav-button:link {
 	padding: 5px 25px;
-	background-color: green;
 	font-size: 18px;
 	font-family: arial;
+	text-decoration: none;
+	color: black;
+}
+
+.nav-button:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.nav-button:hover {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
 }
