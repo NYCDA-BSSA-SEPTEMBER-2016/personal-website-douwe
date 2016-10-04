@@ -3,9 +3,27 @@ h1 {
 }
 
 header {
-  /*background-image: url('../img/pattern1.jpg');*/
-  background-image: none;
-  background-color: #020f42; 
+	/*background-image: none;*/
+	/*background-color: #020f42; */
+	background-color:#556;
+	background-image: 
+		linear-gradient(30deg, #020f42 12%, transparent 12.5%, transparent 87%, #020f42 87.5%, #020f42),
+		linear-gradient(150deg, #020f42 12%, transparent 12.5%, transparent 87%, #020f42 87.5%, #020f42),
+		linear-gradient(30deg, #020f42 12%, transparent 12.5%, transparent 87%, #020f42 87.5%, #020f42),
+		linear-gradient(150deg, #020f42 12%, transparent 12.5%, transparent 87%, #020f42 87.5%, #020f42),
+		linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a), 
+		linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
+	background-size:80px 140px;
+	background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+header .header-content {
+  padding: 75px 15px;
+}
+
+section {
+	padding-top: 75px;
+	padding-bottom: 0px;
 }
 
 .btn-primary {
@@ -29,7 +47,7 @@ header .header-content .header-content-inner hr {
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
-	color: rgba(255, 255, 255, 0.9);
+	color: rgba(255, 255, 255, 1.0);
 }
 
 .navbar-default.affix {
@@ -84,10 +102,36 @@ hr.light {
 .social-link:hover,
 .social-link:active,
 .social-link:focus {
-	color: #020f42;
+	color: #ef3824;
 	text-decoration: none;
 }
 
 .primary {
 	color: #ef3824;	
+}
+
+.bg-work {
+	background-color: #020f42;
+}
+
+.bg-projects {
+	background-color: #ef3824;
+	padding: 20px 10px;
+}
+
+.project-box {
+	padding: 10px;
+	margin: 10px 0px;
+	color: #fff2cf;
+	border: 1px solid #fff2cf;
+}
+
+.bg-services {
+	padding-top: 25px;
+	padding-bottom: 50px;
+	background-color: #fff2cf; 
+}
+
+.bg-contact {
+	padding-top: 20px;
 }
