@@ -50,6 +50,12 @@ header .header-content .header-content-inner hr {
 	color: rgba(255, 255, 255, 1.0);
 }
 
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+  color: #ef3824 !important;
+  background-color: transparent;
+}
+
 .navbar-default.affix {
 	background-color: #fff2cf;
 	border-color: rgba(34, 34, 34, 0.05);
@@ -60,7 +66,7 @@ header .header-content .header-content-inner hr {
 }
 .navbar-default.affix .navbar-header .navbar-brand:hover,
 .navbar-default.affix .navbar-header .navbar-brand:focus {
-	color: #d01d08;
+	color: #ef3824;
 }
 .navbar-default.affix .nav > li > a,
 .navbar-default.affix .nav > li > a:focus {
@@ -68,7 +74,7 @@ header .header-content .header-content-inner hr {
 }
 .navbar-default.affix .nav > li > a:hover,
 .navbar-default.affix .nav > li > a:focus:hover {
-	color: #d01d08;
+	color: #ef3824;
 }
 
 .bg-primary {
@@ -110,6 +116,10 @@ hr.light {
 	color: #ef3824;	
 }
 
+hr.dark {
+	border-color: #020f42;
+}
+
 .bg-work {
 	background-color: #020f42;
 }
@@ -133,5 +143,27 @@ hr.light {
 }
 
 .bg-contact {
+	background-color: #020f42;
+	color: #fff2cf;
 	padding-top: 20px;
+	padding-bottom: 25px;
+}
+
+.contact-link,
+.contact-link:hover,
+.contact-link:active,
+.contact-link:visited {
+	color: #fff2cf;
+}
+
+.crop {
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.crop img {
+    width: 400px;
+    height: 300px;
+    margin: -75px 0 0 -100px;
 }
