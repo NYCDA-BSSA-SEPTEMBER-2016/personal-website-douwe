@@ -161,11 +161,24 @@ hr.dark {
 	color: #fff2cf;
 }
 
+.project-description {
+	min-height: 100px;
+}
+
+.link-text-right {
+	text-align: center;
+}
+
 .project-link,
-.prokect-link:hover,
-.prokect-link:active,
-.prokect-link:visited {
-	color:green;
-	transition: none;
-	opacity: 100%;
+.project-link:hover,
+.project-link:active,
+.project-link:visited {
+	color: #ffe08b;
+}
+
+.more-projects {
+	text-align: center;
+	color: #fff2cf;
+	padding: 25px 0px;
+	font-weight: 600;
 }
