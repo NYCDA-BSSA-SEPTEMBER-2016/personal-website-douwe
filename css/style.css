@@ -1,3 +1,93 @@
+h1 {
+	color: #fff2cf;
+}
+
 header {
-  background-image: url('../img/pattern1.jpg');
+  /*background-image: url('../img/pattern1.jpg');*/
+  background-image: none;
+  background-color: #020f42; 
+}
+
+.btn-primary {
+	background-color: #ef3824;
+	border-color: #d01d08;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+	color: white;
+	background-color: #d01d08;
+	border-color: #d01d08;
+}
+
+header .header-content .header-content-inner hr {
+	border-color: #fff2cf;
+}
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-default.affix {
+	background-color: #fff2cf;
+	border-color: rgba(34, 34, 34, 0.05);
+}
+.navbar-default.affix .navbar-header .navbar-brand {
+	color: #020f42;
+	font-size: 14px;
+}
+.navbar-default.affix .navbar-header .navbar-brand:hover,
+.navbar-default.affix .navbar-header .navbar-brand:focus {
+	color: #d01d08;
+}
+.navbar-default.affix .nav > li > a,
+.navbar-default.affix .nav > li > a:focus {
+	color: #020f42;
+}
+.navbar-default.affix .nav > li > a:hover,
+.navbar-default.affix .nav > li > a:focus:hover {
+	color: #d01d08;
+}
+
+.bg-primary {
+  background-color: #ef3824;
+}
+
+.bg-primary .container{
+  background-color: #ef3824;
+}
+
+.text-color {
+	color: #fff2cf;
+}
+
+.dark-shade-text {
+	color: #ffe08b;
+}
+
+hr.light {
+  border-color: #fff2cf;
+}
+
+.service-box .text-primary {
+	color: #020f42;
+}
+
+.social-link {
+	color: #020f42;
+}
+
+.social-link:hover,
+.social-link:active,
+.social-link:focus {
+	color: #020f42;
+	text-decoration: none;
+}
+
+.primary {
+	color: #ef3824;	
 }
