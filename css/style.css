@@ -134,6 +134,11 @@ hr.dark {
 	margin: 10px 0px;
 	color: #fff2cf;
 	border: 1px solid #fff2cf;
+	min-height: 400px;
+}
+
+.project-title {
+	font-weight: 600;
 }
 
 .bg-services {
@@ -156,14 +161,11 @@ hr.dark {
 	color: #fff2cf;
 }
 
-.crop {
-    width: 350px;
-    height: 200px;
-    overflow: hidden;
-}
-
-.crop img {
-    width: 400px;
-    height: 300px;
-    margin: -75px 0 0 -100px;
+.project-link,
+.prokect-link:hover,
+.prokect-link:active,
+.prokect-link:visited {
+	color:green;
+	transition: none;
+	opacity: 100%;
 }
